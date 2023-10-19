@@ -2,8 +2,7 @@ import axios from "axios";
 import qs from "qs";
 
 const http = axios.create({
-  baseURL: "http://localhost:3000" || process.env.REACT_APP_URL,
-  // baseURL: "http://localhost:3001",
+  baseURL:process.env.REACT_APP_URL ||  "http://localhost:3000",
 
   headers: {
     "Access-Control-Allow-Origin": "*",
