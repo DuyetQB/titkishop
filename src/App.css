@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest&family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --black:#000000e6;
+  --white:#ffffff;
+  --backround:#3b82f633;
+  --border:rgb(37 99 235/1);
+  --bgblack:rgb(16 20 30/1);
+  --grey:rgb(188, 186, 186);
+}
+
+html {
+  font-family: 'Onest', sans-serif;
+  /* background-color: var(--black); */
+}

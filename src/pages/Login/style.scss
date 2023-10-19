@@ -1,0 +1,270 @@
+.main-login {
+  height: 100vh;
+
+  .main-login-content {
+    padding: 2rem 5% 0;
+    background: linear-gradient(235.25deg, #ffffff 35%, #e3e7e9 100%);
+    position: relative;
+
+    .header-login {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .language-login {
+        padding: 0.7rem 12%;
+        height: 0;
+        position: relative;
+        right: 20%;
+      }
+    }
+
+    .text-login {
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+      padding: 3.5rem 0;
+
+      .text-welcome {
+        color: #15b04b;
+        font-size: 3.6em;
+        font-weight: 300;
+        letter-spacing: 0;
+        margin: 0;
+        text-align: left;
+        line-height: 100%;
+      }
+
+      .text-crowdwork {
+        font-size: 3.6em;
+        font-weight: bold;
+        letter-spacing: 0;
+        margin: 0;
+        text-align: right;
+        line-height: 100%;
+
+        .text-crowd {
+          color: #15b04b;
+        }
+        .text-Work {
+          color: #f17126;
+        }
+      }
+    }
+
+    .form-login {
+      display: flex;
+      flex-direction: column;
+
+      .text-error {
+        color: #ff0000;
+        font-size: 1.1em;
+        letter-spacing: 0;
+        margin-bottom: 0.5rem;
+
+        a {
+          color: #ff0000;
+          text-decoration: underline;
+        }
+      }
+
+      .text-form-login {
+        color: #4a5b6d;
+        font-size: 1.1em;
+        letter-spacing: 0;
+        margin-bottom: 10px;
+      }
+
+      .form-field {
+        margin-bottom: 10px;
+        input {
+          box-sizing: border-box;
+          height: 3.5rem;
+          border: 1px solid #e7edf3;
+          border-radius: 4px;
+          background-color: #ffffff;
+          color: #4a5b6d;
+          font-size: 1.2em;
+          letter-spacing: 0;
+          line-height: 28px;
+        }
+      }
+
+      .checkbox-field {
+        width: fit-content;
+        margin-bottom: 10px;
+        color: #4a5b6d;
+        font-size: 1.1em;
+        letter-spacing: 0;
+        line-height: 32px;
+
+        input {
+          box-sizing: border-box;
+          border: 1px solid #b3c0ce;
+          border-radius: 4px;
+          background-color: #ffffff;
+        }
+
+        span {
+          font-size: 1.1em;
+        }
+      }
+
+      .btn-login {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #66bb6a;
+        color: #ffffff;
+        font-size: 1.2em;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 32px;
+        text-align: center;
+        box-shadow: 0 13px 20px 0 rgba(118, 196, 125, 0.41);
+      }
+    }
+
+    //LINE CONTAINER
+    .line-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin: 1.5rem 0;
+
+      .line {
+        box-sizing: border-box;
+        height: 1px;
+        border-top: 1px solid #b3c0ce;
+      }
+      .text-line {
+        color: #4a5b6d;
+        font-size: 1.2em;
+        letter-spacing: 0;
+        line-height: 32px;
+        margin: 0;
+        text-align: center;
+      }
+    }
+
+    //LOGIN GOOGLE
+    .login-google {
+      display: flex;
+
+      .btn-google {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #f17126;
+        box-shadow: 0 13px 20px 0 rgba(241, 113, 38, 0.3);
+        font-size: 1.2em;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 32px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      //TEXT FOOTER
+      .text-footer {
+        color: #b3c0ce;
+        font-family: OpenSans-Regular;
+        font-size: 0.9em;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 7rem;
+      }
+    }
+  }
+
+  .background-login {
+    background-image: url("https://cdn.dribbble.com/userupload/6869969/file/original-5193c7b8ae3b5109b70a7f85782dbfee.png?resize=1200x900");
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  // 992px
+  @media only screen and (max-width: 992px) {
+    .line-container {
+      .text-line {
+        font-size: 0.8em !important;
+      }
+    }
+
+    .login-google {
+    }
+  }
+
+  // 576px
+  @media only screen and (max-width: 576px) {
+    .main-login-content {
+      padding: 2rem 2rem 0;
+
+      .text-login {
+        padding: 2.5rem 0;
+
+        .text-welcome,
+        .text-crowdwork {
+          font-size: 2.5em;
+        }
+      }
+
+      .form-login {
+        //TEXT-FORM
+        .text-form-login {
+          // font-size: @font-size-mobile;
+          margin-bottom: 0.5rem;
+        }
+
+        //FORM FIELD
+        .form-field {
+          margin-bottom: 0.5rem;
+          input {
+            // font-size: @font-size-mobile;
+            height: 3rem;
+          }
+        }
+
+        //CHECKBOX
+        .checkbox-field {
+          margin-bottom: 0;
+
+          h4 {
+            font-size: 0.9em;
+          }
+        }
+
+        //BTN LOGIN
+        .btn-login {
+          height: 2.5rem;
+          // font-size: @font-size-mobile;
+        }
+      }
+
+      .line-container {
+        line-height: 0;
+        margin: 0.2rem 0;
+        // font-size: @font-size-mobile;
+      }
+
+      //LOGIN GOOGLE
+      .login-google {
+        .btn-google {
+          height: 2.5rem;
+          // font-size: @font-size-mobile;
+        }
+
+        .text-footer {
+          font-size: 0.75em;
+        }
+      }
+    }
+    //BACKGROUND-576px
+    .background-login {
+      display: none;
+    }
+  }
+}

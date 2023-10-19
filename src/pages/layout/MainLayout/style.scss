@@ -1,0 +1,11 @@
+.fake-layout {
+  width: 240px;
+  height: 100%;
+  @media screen and (max-width: 739px) {
+    width: 0px;
+  }
+}
+
+.main-layout {
+  background: var(--white);
+}

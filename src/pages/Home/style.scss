@@ -1,0 +1,22 @@
+
+.wrap {
+
+  &__title {
+    font-size: 1.6em;
+    text-align: center;
+    padding: 2rem 0;
+    color: rgb(147 197 253/1);
+  }
+  & .form-select {
+    padding: 30px 0;
+    display: flex;
+    justify-content: end;
+    
+    .ant-select {
+      
+      width: 360px !important;
+      height: 43px;
+      margin-right: 120px;
+    }
+  }
+}
