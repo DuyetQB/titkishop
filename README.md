@@ -2,22 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Here's a video walkthrough of implemented user stories
 
-(https://www.loom.com/share/e2d42e72d8f04311a199849620754923?sid=115c995c-57b8-4148-abb2-2eb81ba86e81)
-
-# What I've done
-
-+ List movie
-+ Search movie
-+ Pagination
-+ Responsive mobile
-+ View Detail movie
-
-# What I haven't done
-
-+ Watch movie
-
+# User
+username: duyet
+password:1234
 
 # I build on
 
@@ -25,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 # Open live project in 
-(https://phimmoi-ten.vercel.app/)
+(https://titkishop.vercel.app/)
 
 ## Available Scripts
 
